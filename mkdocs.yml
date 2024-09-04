@@ -80,11 +80,18 @@ extra:
   analytics:
     provider: google
     property: G-KX3MNPJ4L6
+  alternate:
+    - name: English
+      link: /
+      lang: en
+    - name: Japanese (VERY NOT DONE)
+      link: /ja/
+      lang: ja
 
 # Page Tree
 nav:
-  - Home: index.md
-  - Website Feature Guide: website-feature-guide.md
+  - Home: en/index.md
+  - Website Feature Guide: en/website-feature-guide.md
   - Learning Course:
     - learning-course/index.md
     - Stage 0: 
